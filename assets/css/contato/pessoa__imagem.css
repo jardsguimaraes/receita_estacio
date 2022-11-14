@@ -1,0 +1,10 @@
+.pessoa__imagem{
+    background-image: url('../../img/contato.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
