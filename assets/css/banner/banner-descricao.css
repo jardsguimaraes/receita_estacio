@@ -1,0 +1,10 @@
+.banner__descricao{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+@media screen and (min-width: 0px) {
+    .banner__descricao{
+        font-size: 26px;
+        padding-top: 1rem;
+    }
+}

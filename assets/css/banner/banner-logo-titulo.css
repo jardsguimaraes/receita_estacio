@@ -1,0 +1,11 @@
+.banner__logotitulo{
+    align-items: center;
+    width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+    .banner__logotitulo{
+        display: flex;
+        justify-content: center;
+    }
+}

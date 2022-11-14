@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Meta tags Obrigatórias -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+        <!-- styles CSS -->
+        <link rel="stylesheet" href="./assets/css/normalize.css">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/cadastro/cadastro.css">
+        <link rel="stylesheet" href="./assets/css/rodape.css">
+
+
+        <title>Receitas Tia Juremma - Cadastro</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #E14D2A;">
+                <a class="navbar-brand" href="./home.html">
+                    <img src="./assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./home.html">Home <span class="sr-only">(Página atual)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./receitas.html">Receitas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cadastro.html">Cadastro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contato.html">Contato</a>
+                        </li>            
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="cadastro" style="background: #ff6347;">
+            <div class="container">
+                <form class="formulario pt-2" action="mailto:email@dominio.com.br" method="post" enctype="text/plain">
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="inputEmail4">Nome:</label>
+                            <input type="text" class="form-control" placeholder="Nome" required>
+                        </div>
+                        <div class="col">
+                            <label for="inputEmail4">Sobrenome:</label>
+                            <input type="text" class="form-control" placeholder="Sobrenome" required>
+                        </div>
+                    </div>
+                    <div class="form-row pt-2">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">E-mail</label>
+                            <input type="email" class="form-control" id="inputEmail4" name="email" placeholder="email@dominio.com.br" required>
+                        </div>            
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Endereço</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Complemento</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">Cidade</label>
+                            <input type="text" class="form-control" id="inputCity" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputEstado">Estado</label>
+                            <select id="inputEstado" class="form-control">
+                                <option selected>Acre - AC</option>
+                                <option >Alagoas - AL</option>
+                                <option>Amazonas - AM</option>
+                                <option>Amapá - AP</option>
+                                <option>Bahia - BA</option>
+                                <option>Ceará - CE</option>
+                                <option>Distrito Federal - DF</option>
+                                <option>Espírito Santo - ES</option>
+                                <option>Goiás - GO</option>
+                                <option>Maranhão - MA</option>
+                                <option>Minas Gerais - MG</option>
+                                <option>Mato Grosso do Sul - MS</option>
+                                <option>Mato Grosso - MT</option>
+                                <option>Pará - PA</option>
+                                <option>Paraíba - PB</option>
+                                <option>Pernambuco - PE</option>
+                                <option>Piauí - PI</option>
+                                <option>Paraná - PR</option>
+                                <option>Rio de Janeiro - RJ</option>
+                                <option>Rio Grande do Norte - RN</option>
+                                <option>Roraima - RR</option>
+                                <option>Rio Grande do Sul - RS</option>
+                                <option>Santa Catarina - SC</option>
+                                <option>Sergipe - SE</option>
+                                <option>São Paulo - SP</option>
+                                <option>Tocantins - TO</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputCEP">CEP</label>
+                            <input type="text" class="form-control" id="inputCEP" placeholder="00000-000" pattern="[\d]{5}-?[\d]{3}" title="00000-000" required>
+                        </div>
+                    </div>                    
+                    <button type="submit" class="btn btn-primary btn-lg btn-block btn-sm">Cadastrar</button>
+                </form>
+            </div>
+        </section>
+        <footer class="rodape">
+            <h3>&#169; Jurema 2022</h3>
+        </footer>
+        <!-- JavaScript (Opcional) -->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

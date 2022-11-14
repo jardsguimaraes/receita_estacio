@@ -1,0 +1,10 @@
+.banner__subtitulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+@media screen and (min-width: 0px) {
+    .banner__subtitulo{
+        font-size: 26px;
+    }
+}
+
